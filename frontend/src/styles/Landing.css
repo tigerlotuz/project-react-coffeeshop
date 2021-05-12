@@ -1,0 +1,45 @@
+
+.landing-container {
+  min-width: 280px;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "left center right";
+  background-color: rgba(56, 132, 109, 1);
+  color: white;
+  margin: 0;
+}
+.navicon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 3;
+}
+.ab-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.landing-center {
+  position: relative;
+  grid-area: center;
+  min-height: 100vh;
+  z-index: 2;
+}
+.left-leafs,
+.right-leafs {
+  background-color: rgba(56, 132, 109, 1);
+  min-height: 100vh;
+  z-index: 1;
+}
+.left-leafs {
+  grid-area: left;
+  justify-self: left;
+}
+.right-leafs {
+  grid-area: right;
+  justify-self: right;
+
+}

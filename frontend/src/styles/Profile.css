@@ -1,0 +1,95 @@
+.profile-container {
+    background-color: var(--dark-color);
+    color: white;
+    min-width: 280px;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15vh auto 15vh;
+    grid-template-areas:
+      "header header header"
+      "main main main"
+      "main main main"
+  }
+  .profile-header {
+    grid-area: header;
+  }
+  .navicon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 48px;
+    height: 48px;
+  }
+  .email {
+      margin-bottom: 4rem;
+  }
+  .profile-wrapper {
+    grid-area: main;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .profile-main {
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-color);
+    padding: 2rem 0.5rem 2rem 0.5rem;
+  }
+  .profile-main h1 {
+      align-self: flex-start;
+      padding-bottom: 1.5rem;
+  }
+  .profile-main h5 {
+    align-self: flex-start;
+    padding-bottom: .5rem;
+}
+  .profile-main p {
+    font-size: 12px;
+  }
+  .profile-main-container {
+    margin-top: .5rem;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .orderstatus-tom {
+    padding: 2rem 1rem 3rem 1rem;
+    text-align: left;
+  }
+  .ordersumma {
+      display: flex;
+      flex-direction: column;
+      justify-self: flex-end;
+  }
+  .ordernummer {
+      display: flex;
+      flex-direction: column;
+    justify-content: flex-start;
+  }
+  .ordernummer p {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .total {
+      border: none;
+  }
+  .profile-main-container p {
+      padding-bottom: 1rem;
+  }
+
+  .profile-bold {
+      font-weight: bold;
+  }
+  .profile {
+      width: 94px;
+      height: 94px;
+  }
+  .profile-header-img{
+    width: 100%;
+    
+  }
+  

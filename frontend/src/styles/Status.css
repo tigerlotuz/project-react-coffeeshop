@@ -1,0 +1,36 @@
+
+.status-wrapper {
+  background-color: var(--middle-color);
+}
+.status-container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--middle-color);
+  color: white;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 3rem 0 3rem;
+}
+.status-ordernummer {
+  margin: 0 0 2rem 0;
+}
+.ordernumber {
+  font-weight: 700;
+}
+.drone {
+  padding: 1rem 0 3rem 0;
+}
+.time {
+  font-size: 22px;
+  margin: 2rem 0 5rem 0;
+}
+.btn2 {
+  background-color: white;
+  color: var(--dark-color);
+  width: 100%;
+  margin: 0;
+  padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+}

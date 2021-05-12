@@ -1,0 +1,33 @@
+.navbar-container {
+  background-color: rgba(47, 41, 38, 1);
+  color: rgba(255, 255, 255, 1);
+  min-width: 280px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.x {
+  background-color: white;
+  color: rgba(34, 34, 34, 1);
+  border-radius: 25px;
+  
+  padding: 0.6rem;
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.navbar-container a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-container-hr {
+  width: 48px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+}
